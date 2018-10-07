@@ -1,1 +1,1 @@
-# architecture-conecpt
+# architecture-concept
