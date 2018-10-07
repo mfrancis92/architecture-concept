@@ -1,0 +1,26 @@
+/* IMPORT CSS RESET */
+@import 'reset';
+
+/* IMPORTS FONTS */
+@import 'fonts';
+
+/* IMPORTS HEADER */
+@import 'header';
+
+/* BACKGROUND */
+body {
+    background-image: url('../img/background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* UNIVERSAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
