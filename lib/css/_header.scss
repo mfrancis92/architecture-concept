@@ -1,13 +1,35 @@
 header {
     background-image: url('../img/hero.png');
-    background-attachment: fixed;
     background-size: cover;
-    height: 100%;
-    width: 100%;
-
-    & {
+    margin: 169px 200px 0 200px;
+    .menu {
         display: flex;
         justify-content: space-around;
         align-content: space-between;
+        width: 100%;
+
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        &__link{
+            display: inline;
+            margin: 55px 78px 0 80px;
+        }
+        .search {
+            padding-right: 11px;
+        }
+    }
+    .title {
+        color: $outer-space;
+        font-family: 'DPSDbeyond';
+        font-size: 54px;
+        line-height: 64px;
+        text-transform: uppercase;
+        width: 300px;
+        margin-left: 72px;
+        margin-top: 235px;
     }
 }

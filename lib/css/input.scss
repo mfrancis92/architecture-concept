@@ -4,6 +4,9 @@
 /* IMPORTS FONTS */
 @import 'fonts';
 
+/* IMPORTS VARIABLES */
+@import 'variables';
+
 /* IMPORTS HEADER */
 @import 'header';
 
@@ -22,5 +25,9 @@ body {
 }
 
 a {
+    color: $outer-space;
+    font-family: 'SourceSansPro Bold';
+    font-size: 14px;
     text-decoration: none;
+    text-transform: uppercase;
 }
