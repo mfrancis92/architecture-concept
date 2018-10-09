@@ -15,7 +15,7 @@ header {
         &__link{
             display: inline;
         }
-        
+
         .search {
             padding-right: 11px;
         }
@@ -31,6 +31,8 @@ header {
         margin-top: 235px;
     }
     .card {
+        background-color: $white;
+        padding: 20px;
 
         &__title {
             color: $outer-space;
