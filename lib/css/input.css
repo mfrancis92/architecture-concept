@@ -376,12 +376,6 @@ ul {
 /* IMPORTS VARIABLES */
 /* COLORS */
 /* IMPORTS HEADER */
-header {
-  background-image: url("../img/hero.png");
-  background-size: cover;
-  margin: 169px 200px 0 200px;
-}
-
 header .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,12 +394,12 @@ header .menu__list {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 55px 70px;
   width: 100%;
 }
 
 header .menu__link {
   display: inline;
-  margin: 55px 78px 0 80px;
 }
 
 header .menu .search {
@@ -423,13 +417,38 @@ header .title {
   margin-top: 235px;
 }
 
+header .card__title {
+  color: #242E2D;
+  font-family: 'DPSDbeyond';
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header .card__author {
+  color: #697473;
+  font-family: 'SourceSansPro Light';
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* BACKGROUND */
 body {
   background-image: url("../img/background.png");
-  background-attachment: fixed;
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+/* GRID */
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  background-image: url("../img/hero.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 169px 200px 0 200px;
 }
 
 /* UNIVERSAL STYLES */

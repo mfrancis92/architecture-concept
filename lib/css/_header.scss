@@ -1,7 +1,4 @@
 header {
-    background-image: url('../img/hero.png');
-    background-size: cover;
-    margin: 169px 200px 0 200px;
     .menu {
         display: flex;
         justify-content: space-around;
@@ -11,13 +8,14 @@ header {
         &__list {
             display: flex;
             justify-content: space-between;
+            padding: 55px 70px;
             width: 100%;
         }
 
         &__link{
             display: inline;
-            margin: 55px 78px 0 80px;
         }
+        
         .search {
             padding-right: 11px;
         }
@@ -31,5 +29,23 @@ header {
         width: 300px;
         margin-left: 72px;
         margin-top: 235px;
+    }
+    .card {
+
+        &__title {
+            color: $outer-space;
+            font-family: 'DPSDbeyond';
+            font-size: 30px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__author {
+            color: $sirocco;
+            font-family: 'SourceSansPro Light';
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+        }
     }
 }
